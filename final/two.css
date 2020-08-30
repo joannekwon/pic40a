@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: Comic Sans MS;
+  font-size: 17px;
+}
+
+.container {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: auto;
+  width: 700px;
+  color: grey;
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 8px;
+}
+
+form {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+fieldset {
+  text-align: left;
+  padding: 15px 20px 20px 20px;
+  border-radius: 12px;
+}
+
+legend {
+  font-size: 25px;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 14px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: grey;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 12px;
+}
+  
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: pink;
+}
+
+input[type=text] {
+  padding: 6px;
+  width: 300px;
+  border-radius: 8px;
+  outline: none;
+} 
+  
+#question {
+  width: 550px;
+}

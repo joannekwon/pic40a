@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <title>Input Information</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="two.css"/>
+  </head>
+
+  <body>
+        <div class="container">
+        <h2>RSVP Form</h2>
+        <form action="store_data.php" method="get">
+                <fieldset>
+                        <label>What's your name?<br/>
+                                <input type="text" name="name" id="name"/>
+                        </label><br/><br/>
+
+                        Will you be attending?<br/>
+                                <input type="radio" name="attend" value="Yes"><label class='attend'> Yes, I'll be
+there</label><br/>
+                                <input type="radio" name="attend" value="No"><label class='attend'> Sorry, can't make
+it<br/><br/>
+
+                        What will you be bringing?<br/>
+                                <input type="radio" name="dish" value="Mains"><label class='dish' id="dish"> Mains</label><br/>
+                                <input type="radio" name="dish" value="Salad"><label class='dish' id="dish"> Salad</label><br/>
+                                <input type="radio" name="dish" value="Dessert"><label class='dish' id="dish"> Dessert</label><br/>
+                                <input type="radio" name="dish" value="Drinks"><label class='dish' id="dish"> Drinks</label><br/><br/>
+
+                <label>Do you have any allergies or dietary restrictions?
+                                <input type="text" name="restrictions" id="restrictions"/>
+                        </label><br/><br/>
+                </fieldset><br/>
+
+                <div class="buttons">
+                        <input type="submit" name="send" value="Send"/>
+                        <input type="reset" name="reset" value="Clear"/>
+        </div>
+        </form>
+  </div>
+  </body>
+</html>

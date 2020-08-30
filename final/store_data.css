@@ -1,0 +1,41 @@
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+body {
+        background-color: lightgrey;
+        font-family: Comic Sans MS;
+        font-size: 17px;
+}
+
+.container {
+        background-color: white;
+        margin: 50px auto;
+        padding: 50px;
+        overflow: auto;
+        width: 700px;
+        text-align: center;
+        color: grey;
+        border-radius: 12px;
+}
+
+p {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 8px;
+}
+
+.button {
+        background-color: grey;
+        border: 2px soild white;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 12px;
+}
+
+.button:hover {
+        background: pink;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <title>Notes</title>
+   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+   <link rel="stylesheet" type="text/css" href="notes.css"/>
+   <script type="text/javascript" src="notes_b.js"></script>
+</head>
+
+<body>
+        <div class="container">
+         <h1>Add Note</h1>
+        <form action="notes_data.php" method="get">
+         <textarea rows="10" cols="70" name="new_note" id="new_note"/>Add your note here.</textarea><br/><br/>
+
+            <input type="submit" value="Submit"/>
+            <input type="button" value="Save" onclick="save()"/>
+            <input type="button" value="Load" onclick="load()"/>
+            <input type="reset" value="Reset"/><br/>
+</form>
+   </div>
+</body>
+</html>

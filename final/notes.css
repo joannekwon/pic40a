@@ -1,0 +1,59 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: lightgrey;
+   font-family: Comic Sans MS;
+   font-size: 15px;
+}
+
+h1 {
+   font-size: 50px;
+   text-align: center;
+}
+
+.container {
+   background-color: white;
+   margin: 20px auto;
+   padding: 20px;
+   overflow: auto;
+   width: 700px;
+   color: grey;
+   border-radius: 12px;
+   text-align: center;
+}
+
+#new_note {
+   padding: 20px;
+   outline: none;
+}
+
+ul, li {
+   text-align: center;
+}
+
+.links {
+   text-align: center;
+   font-size: 17px;
+   color: grey;
+}
+
+.mult_buttons {
+   text-align: center;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+   background-color: grey;
+   border: 2px solid white;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   font-size: 15px;
+   border-radius: 12px;
+}
+   
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+   background-color: pink;
+}

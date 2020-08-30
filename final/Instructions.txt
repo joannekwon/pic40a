@@ -1,0 +1,24 @@
+﻿Joanne Kwon
+PIC 40A
+Final Project: Invitation Form
+
+
+This web app was designed to have similar functions to that of Google Form. The user is encouraged to RSVP for an ice cream party by filling out an online form. Upon filling out the form the user is able to view information and notes that were created by themselves and other users.
+
+
+Instructions:
+1. Read about the event in the scrolling text and press the “RSVP here” button to RSVP see the invitation form.
+2. Fill out the form and press “Send”.
+3. Press “Click here to see who has responded”.
+4. You are brought to a page with all the responses (most recent submission on the top), which refreshes every second.
+5. You can either press “Return to the main page” or “Write a note”.
+6. Write a note in the textbox and press “Submit” (you can also use the save, load, and reset buttons) and you will be taken to all the comments that were made.
+
+
+I was hoping to receive an A on this project assignment. I have satisfied the requirements for an A grade by:
+* Creating external CSS stylesheets (one.css, two.css, notes_data.css, notes.css, responses.css, and store_data.css)
+* Incorporated cookies in order to effectively save and reload notes
+* Used JS for various aspects of the project, lik one.js uses JS for the scroll text.
+* Used onclick and onload events 
+* Used DOM within responses.js in order to display results
+* Used Ajax to interact with SQLite3 database on order to refresh the responses.html page (changes in real time).

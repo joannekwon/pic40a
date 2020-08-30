@@ -1,0 +1,57 @@
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+body {
+        background-color: lightgrey;
+        font-family:Comic Sans MS;
+        font-size: 17px;
+}
+
+.container {
+        background-color: white;
+        margin: 20px auto;
+        padding: 20px;
+        overflow: auto;
+        width: 700px;
+        color: grey;
+        border-radius: 12px;
+        text-align: center;
+}
+
+h1 {
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 8px;
+}
+
+table {
+        margin: 10px auto;
+        border-collapse: collapse;
+        width: 620px;
+}
+
+tr, td, th {
+        padding: 25px;
+        text-align: center;
+        border: 1px solid black;
+}
+
+th {
+        font-size: 25px;
+}
+
+.button {
+        background-color: grey;
+        border: 2px solid white;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 12px;
+}
+
+.button:hover {
+        background: pink;
+}
