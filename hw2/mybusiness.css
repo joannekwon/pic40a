@@ -1,0 +1,447 @@
+*{
+	
+	color: black;
+
+}
+
+
+html, body{
+	
+	margin: 0;
+	
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	font-size: 100%;
+
+	background-color: grey;
+
+}
+
+
+/*order*/
+
+legend{
+	
+	font-size: 20pt;
+
+}
+			
+
+
+fieldset{
+	
+	border: 3px dashed white;
+
+}
+
+
+
+/*mybusiness*/
+
+img.a{
+	
+	float: right;
+
+	padding: 10px;
+
+}
+
+
+
+/*headings*/
+
+h2,h3{
+
+	color: black;
+
+	font-weight:normal;
+
+}
+
+
+
+h1{
+
+	font-size: 70pt;
+
+	padding-top:10px;
+
+	color: white;
+
+}
+
+
+
+h2{
+
+	font-size: 30pt;
+
+	text-decoration: none;
+
+}
+
+
+
+h3{
+
+	font-size: 16pt;
+
+	padding-top:10px;
+
+}
+
+
+
+h5{
+
+	font-size: 13pt;
+
+	color: black;
+
+	text-align: center;
+
+}
+
+
+
+/*table*/
+
+table{
+
+	border-collapse: collapse;
+
+	border: 1px solid black;
+
+	color: black;
+
+}
+
+
+
+th, td{
+
+	padding: 15px;
+
+	border: 1px solid black;
+
+}
+
+
+
+tr{
+
+	background-color: white;
+
+}
+
+
+
+tr:hover{
+
+	background-color: #dce6ef;
+
+}
+
+
+th{
+
+	color: black;
+
+	background-color: #B0C4DE;
+
+}
+
+
+
+caption{
+
+	color: black;
+
+	font-size: 13pt;
+
+	font-weight: 700;
+
+}
+
+
+
+/*main_container*/
+
+#main_container{
+
+	width: 780px;
+
+}
+
+
+
+/*headerlogo*/
+
+#headerlogo h1{
+
+	margin: 0;
+
+	padding: 0;
+
+	text-transform: uppercase;
+
+}
+
+
+
+#headerlogo{
+
+	height: 144px;
+
+	background: url(FY.jpg);	
+	text-align: center;
+
+	font-family: Snell Roundhand, cursive, impact;
+
+	font-size: 50pt;
+
+}
+
+
+
+/*sidebar*/
+
+#sidebar{
+	width: 150px;
+
+	float: left;
+
+	padding-top: 0;
+
+	padding-right: 15px;
+
+	padding-bottom: 0;
+
+	padding-left: 15px;
+
+	background-color: #CCCCCC;
+	
+font-size: 11pt;
+
+}
+
+
+
+#sidebar p{
+
+	text-align: center;
+
+}
+
+
+
+#sidebar address{
+
+	font-size: 11pt;
+
+	text-align: center;
+
+}
+
+
+
+body{
+
+	background-image: url(background.jpg);
+
+	background-repeat: repeat-x;
+
+	background-repeat: repeat-y;
+
+}
+
+
+
+a:visited{
+
+	color: blue;
+
+}
+
+
+
+.design{
+
+	list-style-type: square;
+
+	font-style: italic;
+
+}
+
+
+
+.bulletpt{
+
+	list-style-type: circle;
+
+	font-style: italic;
+
+}
+
+
+
+
+/*main content*/
+
+#maincontent{
+
+	margin-left: 190px;
+
+	padding-left: 20px;
+
+	padding-right: 20px;
+
+	padding-bottom: 0;
+
+	padding-top: 0;
+
+	font-size: 12pt;
+
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+
+
+#maincontent p{
+
+	text-indent: 30px;
+
+}
+
+
+
+#maincontent h2{
+
+	padding-top: 20px;
+
+}
+
+
+
+p.textcolor{
+
+	color: #666666;
+
+}
+
+
+
+/*footer*/
+
+#footer{
+
+	clear: both;
+
+	text-align: center;
+
+	padding-top: 2px;
+
+	padding-right: 0;
+
+	padding-bottom: 2px;
+
+	padding-left: 60px;
+
+	background-color: #B0C4DE;
+
+}
+
+
+
+/*drop down menu*/
+
+#dropdownmenu{
+
+	padding-right: 10px;
+
+	height: 1em;
+
+	float: right;
+
+	font-size: 13pt;
+
+}
+
+
+
+#dropdownmenu li{
+	
+	list-style: none;
+	
+	float: left;
+
+}
+
+
+
+#dropdownmenu li a{
+
+	display: block;
+
+	padding: 10px 30px;
+
+	color: white;
+
+	text-decoration: none;
+
+	background-color: #B0C4DE;
+
+}
+
+
+
+#dropdownmenu li ul{
+
+	display: none;
+ 
+	width: 10em;
+
+}
+
+
+
+#dropdownmenu li:hover ul{
+
+	display: block;
+
+	position: absolute;
+
+	margin: 0;
+
+	padding: 0;
+}
+
+
+#dropdownmenu li:hover li{
+
+	float: none;
+
+}
+
+
+
+#dropdownmenu li:hover li a{
+
+	background-color: #B0C4DE;
+
+	border-bottom: 1px solid white;
+
+	color: white;
+
+}
+
+
+
+#dropdownmenu li li a:hover{
+
+	background-color: #dce6ef;
+
+}
+	

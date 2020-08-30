@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Order Form</title>
+		<meta charset = "utf-8"/>
+		<link href="mybusiness.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+		<div id="main_container">
+			<!--headerlogo-->
+			<div id="headerlogo">
+				<h1>JFY</h1>
+			</div>
+
+			<!--drop down menu-->
+      		<div id="dropdownmenu">
+      			<ul>
+        			<li><a href="#">Home</a></li>
+         			<li><a href="mybusiness2.html">About</a></li>
+         			<li><a href="#">Locations</a>
+         				<ul>
+         					<li><a href="#">Los Angeles</a></li>
+         					<li><a href="#">San Diego</a></li>
+         					<li><a href="#">San Francisco</a></li>
+         				</ul>
+         			</li>
+        			<li><a href="#">Flavors</a>
+         				<ul>
+               				<li><a href="#">Vanilla</a></li>
+               				<li><a href="#">Chocolate</a></li>
+               				<li><a href="#">Strawberry</a></li>
+               				<li><a href="#">Coffee</a></li>
+               				<li><a href="#">Matcha</a></li>
+           				</ul> 
+          			</li>  
+         			<li><a href="#">Contact</a>
+         				<ul>
+         					<li><a href="#">Careers</a></li>
+         					<li><a href="order2.html">Order</a></li>
+         				</ul>
+         			</li>
+      			</ul>
+      		</div>
+
+      		<!--sidebar-->
+      		<div id="sidebar">
+      			<h5>Popular Products</h5>
+				<ol>
+					<li class="bulletpt">Strawberry&trade;</li>
+					<li class="bulletpt">Matcha&trade;</li>
+					<li class="bulletpt">Coffee&trade;</li>
+					<li class="bulletpt">Vanilla&trade;</li>
+				</ol>
+				<hr>
+
+				<h5>Check these out</h5>
+				<ul>
+					<li class="design"><a href="https://www.yogurt-land.com/">Yogurtland&reg;</a></li>
+					<li class="design"><a href="https://redmangousa.com/">Red Mango&reg;</a></li>
+					<li class="design"><a href="http://www.menchies.com/">Menchie's&reg;</a></li>
+				</ul>
+				<hr>
+
+				<p><a href="order2.html">Order here</a></p>
+				<p><a href="mybusiness2.html">About our company</a></p>
+				<hr>
+
+				<h5>Contact</h5>
+				<p>123-321-4567</p>
+				<p><a href="mailto:jfy@gmail.com">jfy@gmail.com</a></p>
+				<address>1234 Address Ave,<br/>City, CA 90000</address>
+				<hr>
+
+         		<blockquote cite="https://brandongaille.com/27-great-catchy-frozen-yogurt-shop-slogans/">&quot;Come Chill With Us.&quot;</blockquote><br/><br/>
+         	</div>
+
+         	<!--main content-->
+         	<div id="maincontent">
+			<form action="www.math.ucla.edu/~virtanen/40a.1.18w/examples/PHP/phpscript.php" method="get"><br/>
+				<h2>Order Form</h2>
+				<!--Fieldset One-->
+				<fieldset>
+					<legend>Customer Information</legend>
+					<!--Textfields Widget-->
+					<label for="name">Name: </label><input type="text" name="name" id="name"/>
+					<label for="email">&nbsp;&nbsp;Email: </label><input type="text" name="email" id="email"/><br/><br/>
+					<label for="street">Street: </label><input type="text" name="street" id="street"/>
+					<label for="city">&nbsp;&nbsp;City: </label><input type="text" name="city" id="city"/><br/><br/>
+					<label for="state">&nbsp;&nbsp;State: </label><input type="text" name="state" id="state"/>
+					<label for="zipcode">&nbsp;&nbsp;Zipcode: </label><input type="text" name="zipcode" id="zipcode"/>
+				
+				</fieldset><br/>
+
+				<!--Fieldset Two-->
+				<fieldset>
+					<legend>Order Information</legend>
+					How did you find out about us?
+					<!--Radio Buttons Widget-->
+					<input type="radio" name="type" value="commercial"/>Commercial
+					<input type="radio" name="type" value="magazine"/>Magazine Ad
+					<input type="radio" name="type" value="other"/>Other<br/><br/>
+
+					<!--Checkbox Widget-->
+					<input type="checkbox" name="future" value="Emails"/>Send me emails about future products.<br/><br/>
+
+					<table>
+						<tr>
+							<th>Product</th>
+							<th>Description</th>
+							<th>Price</th>
+							<th>Qty</th>
+						</tr>
+						<tr>
+							<td>Vanilla&trade;</td>
+							<td>5 oz. cup (with toppings)</td>
+							<td>$3.99</td>
+							<td><label for="qty1"></label><input type="text" name="qty1" id="qty1"/></td> <!--Textfields Widget-->
+						</tr>
+						<tr>
+							<td>Chocolate&trade;</td>
+							<td>5 oz. cup (with toppings)</td>
+							<td>$3.99</td>
+							<td><label for="qty2"></label><input type="text" name="qty2" id="qty2"/></td> <!--Textfields Widget-->
+						</tr>
+						<tr>
+							<td>Strawberry&trade;</td>
+							<td>5 oz. cup (with toppings)</td>
+							<td>$5.99</td>
+							<td><label for="qty3"></label><input type="text" name="qty3" id="qty3"/></td> <!--Textfields Widget-->
+						</tr>
+						<tr>
+							<td>Matcha&trade;</td>
+							<td>5 oz. cup (with toppings)</td>
+							<td>$4.99</td>
+							<td><label for="qty4"></label><input type="text" name="qty4" id="qty4"/></td> <!--Textfields Widget-->
+						</tr>
+						<tr>
+							<td>Coffee&trade;</td>
+							<td>5 oz. cup (with toppings)</td>
+							<td>$4.99</td>
+							<td><label for="qty5"></label><input type="text" name="qty5" id="qty5"/></td> <!--Textfields Widget-->
+						</tr>
+					</table><br/>
+
+					Select a credit card
+					<!--Combobox Widget-->
+					<select name="card">
+						<option value="visa">Visa</option>
+						<option value="discover">Discover</option>
+						<option value="mastercard">MasterCard</option>
+					</select><br/><br/>
+
+					<!--Password Widget-->
+					<label for="card">Credit Card Number: </label><input type="password" name="card" id="card"/>
+				</fieldset><br/>
+
+				<!--Fieldset Three-->
+				<fieldset>
+					<input type="submit" value="Submit"/>
+					<input type="reset" value="Clear"/>
+				</fieldset>
+			</form><br/>
+		</div>
+
+			<!--footer-->
+         	<div id="footer">
+         		<p>&copy;2018 Joanne's&reg; Frozen Yogurt</p>
+        	</div>
+        	<p>
+  				<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+			</p>
+
+		</div>
+	</body>
+</html>

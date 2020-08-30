@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+			<title>JavaScript HW3</title>
+			<script type="text/javascript">
+				numvalue = "";
+				op = 0;
+
+    			function display(num) {
+        			var node = document.getElementById("display");
+        			node.value = num;
+				}
+
+     			function decimal(dot) {
+     				var node = document.getElementById("display");
+     				node.value += dot;
+    			}
+
+    			function sort(v) {
+					var node = document.getElementById("display");
+
+    				if (v == '/') {
+						op = 1;
+					}
+					else if (v == '*') {
+						op = 2;
+					}
+					else if (v == '-') {
+						op = 3;
+					}
+					else if (v == '+') {
+						op = 4;
+					}
+    			}
+
+				function operations(value) {
+					var node = document.getElementById("display");
+					var operation = op;
+					var show = node.value;
+					var num1 = show;
+					var num2 = numvalue;
+
+					sort(value);
+
+					if (operation == 0) {
+						numvalue = node.value;
+					}
+					else if (operation == 1) {
+						show = num1 / num2;
+					}
+					else if (operation == 2) {
+						show = num1 * num2;
+					}
+					else if (operation == 3) {
+						show = num1 - num2;
+					}
+					else if (operation == 4) {
+						show = num1 + num2;
+					}
+				}
+
+				function calculation() {
+					var node = document.getElementById("display");
+					var operation = op;
+					var show = node.value;
+					var num1 = show;
+					var num2 = numvalue;
+
+					if (op == 1) {
+						show = num2 / num1;
+					}
+					else if (op == 2) {
+						show = num2 * num1;
+					}
+					else if (op == 3) {
+						show = num2 - num1;
+					}
+					else if (op == 4) {
+						show = num2 + num1;
+					}
+					node.value = show;
+				}
+			</script>
+		</head>
+
+		<body> 
+			<div id="main">
+
+			<h1>Simple calculator</h1>
+
+			<form action="www.math.ucla.edu/~virtanen/40a.1.18w/examples/PHP/phpscript.php" method="get">
+				<p>
+					<input type="text" id="display"/>
+				</p>
+			</form>
+
+			<form action="www.math.ucla.edu/~virtanen/40a.1.18w/examples/PHP/phpscript.php" method="get">
+				<p>
+					<input type="button" value="7" onclick="display('7')"/>
+					<input type="button" value="8" onclick="display('8')"/>
+					<input type="button" value="9" onclick="display('9')"/>
+					<input type="button" value="/" onclick="operations('/')"/><br/>
+
+					<input type="button" value="4" onclick="display('4')"/>
+					<input type="button" value="5" onclick="display('5')"/>
+					<input type="button" value="6" onclick="display('6')"/>
+					<input type="button" value="*" onclick="operations('*')"/><br/>
+
+					<input type="button" value="1" onclick="display('1')"/>
+					<input type="button" value="2" onclick="display('2')"/>
+					<input type="button" value="3" onclick="display('3')"/>
+					<input type="button" value="-" onclick="operations('-')"/><br/>
+
+					<input type="button" value="." onclick="decimal('.')"/>
+					<input type="button" value="0" onclick="display('0')"/>
+					<input type="button" value="=" onclick="calculation()"/>
+					<input type="button" value="+" onclick="operations('+')"/><br/>
+				</p>
+			</form>
+
+			<p>
+ 				<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+			</p>
+		</div>
+		</body>
+	</html>

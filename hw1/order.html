@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Order Form</title>
+		<meta charset = "utf-8"/>
+	</head>
+
+	<body>
+		<h1>Order Form</h1> <!--First heading element-->
+
+		<form action="#" method="get">
+			<!--Fieldset One-->
+			<fieldset>
+				<legend>Customer Information</legend>
+				<!--Textfields Widget-->
+				<label for="name">Name: </label><input type="text" name="name" id="name"/><br/>
+				<label for="street">Street: </label><input type="text" name="street" id="street"/><br/>
+				<label for="city">City: </label><input type="text" name="city" id="city"/><br/>
+				<label for="state">State: </label><input type="text" name="state" id="state"/><br/>
+				<label for="zipcode">Zipcode: </label><input type="text" name="zipcode" id="zipcode"/><br/>
+				<label for="email">Email: </label><input type="text" name="email" id="email"/>
+			</fieldset>
+
+			<!--Fieldset Two-->
+			<fieldset>
+				<legend>Order Information</legend>
+				How did you find out about us?
+				<!--Radio Buttons Widget-->
+				<input type="radio" name="type" value="commercial"/>Commercial
+				<input type="radio" name="type" value="magazine"/>Magazine Ad
+				<input type="radio" name="type" value="other"/>Other<br/>
+
+				<!--Checkbox Widget-->
+				<input type="checkbox" name="future" value="Emails"/>Send me emails about future products.
+
+				<table border="1">
+					<caption>Product List</caption>
+					<tr>
+						<th>Product</th>
+						<th>Description</th>
+						<th>Price</th>
+						<th>Qty</th>
+					</tr>
+					<tr>
+						<td>Vanilla&trade;</td>
+						<td>5 oz. cup (with toppings)</td>
+						<td>$3.99</td>
+						<td><label for="qty1"></label><input type="text" name="qty1" id="qty1"/></td> <!--Textfields Widget-->
+					</tr>
+					<tr>
+						<td>Chocolate&trade;</td>
+						<td>5 oz. cup (with toppings)</td>
+						<td>$3.99</td>
+						<td><label for="qty2"></label><input type="text" name="qty2" id="qty2"/></td> <!--Textfields Widget-->
+					</tr>
+					<tr>
+						<td>Strawberry&trade;</td>
+						<td>5 oz. cup (with toppings)</td>
+						<td>$5.99</td>
+						<td><label for="qty3"></label><input type="text" name="qty3" id="qty3"/></td> <!--Textfields Widget-->
+					</tr>
+					<tr>
+						<td>Matcha&trade;</td>
+						<td>5 oz. cup (with toppings)</td>
+						<td>$4.99</td>
+						<td><label for="qty4"></label><input type="text" name="qty4" id="qty4"/></td> <!--Textfields Widget-->
+					</tr>
+					<tr>
+						<td>Coffee&trade;</td>
+						<td>5 oz. cup (with toppings)</td>
+						<td>$4.99</td>
+						<td><label for="qty5"></label><input type="text" name="qty5" id="qty5"/></td> <!--Textfields Widget-->
+					</tr>
+				</table>
+
+				Select a credit card
+				<!--Combobox Widget-->
+				<select name="card">
+					<option value="visa">Visa</option>
+					<option value="discover">Discover</option>
+					<option value="mastercard">MasterCard</option>
+				</select><br/>
+
+				<!--Password Widget-->
+				<label for="card">Credit Card Number: </label><input type="password" name="card" id="card"/>
+			</fieldset>
+
+			<!--Fieldset Three-->
+			<fieldset>
+				<input type="submit" value="Submit"/>
+				<input type="reset" value="Clear"/>
+			</fieldset>
+		</form>
+
+		<h2>Try my frozen yogurt today!</h2> <!--Second heading element-->
+		<p>
+			<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+		</p>
+	</body>
+</html>
